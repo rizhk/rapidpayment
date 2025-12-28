@@ -11,7 +11,7 @@ services:
       - sqlserver-data:/var/opt/mssql  # Persists data across restarts
 
   paymentmvc:
-      image: mcr.microsoft.com/dotnet/aspnet:8.0  # Runtime image (smaller)
+      image: mcr.microsoft.com/dotnet/sdk:8.0  # ← Use this (Debian-based, full SDK)
       container_name: paymentmvc
       environment:
         - ASPNETCORE_ENVIRONMENT=Development
@@ -20,8 +20,9 @@ services:
         - "5000:80"  # Access at http://localhost:5000
       volumes:
         - .:/app  # Shares entire host root → container /app (edit anywhere on Mac)
-      working_dir: /app/PaymentMvc  # Point to your project folder
-      command: ["dotnet", "watch", "run"]  # Hot-reload on file changes
+      working_dir: /app  # Point to your project folder
+      # command: ["dotnet", "watch", "run"]  # Hot-reload on file changes
+      command: ["tail", "-f", "/dev/null"]
       depends_on:
         - sqlserver
 
