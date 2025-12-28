@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/app/PaymentSol/PaymentSol.csproj",
-      "projectName": "PaymentSol",
-      "projectPath": "/app/PaymentSol/PaymentSol.csproj",
+      "projectUniqueName": "/app/DirectPay/Core/Core.csproj",
+      "projectName": "Core",
+      "projectPath": "/app/DirectPay/Core/Core.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/app/PaymentSol/obj/",
+      "outputPath": "/app/DirectPay/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -60,9 +60,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

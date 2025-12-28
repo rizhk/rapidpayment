@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/app/PaymentSol/PaymentSol.csproj": {}
+    "/app/DirectPay/WebApp/WebApp.csproj": {}
   },
   "projects": {
-    "/app/PaymentSol/PaymentSol.csproj": {
+    "/app/DirectPay/WebApp/WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/PaymentSol/PaymentSol.csproj",
-        "projectName": "PaymentSol",
-        "projectPath": "/app/PaymentSol/PaymentSol.csproj",
+        "projectUniqueName": "/app/DirectPay/WebApp/WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "/app/DirectPay/WebApp/WebApp.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/app/PaymentSol/obj/",
+        "outputPath": "/app/DirectPay/WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"

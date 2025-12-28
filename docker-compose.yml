@@ -17,7 +17,7 @@ services:
         - ASPNETCORE_ENVIRONMENT=Development
         - ASPNETCORE_URLS=http://+:80
       ports:
-        - "5000:80"  # Access at http://localhost:5000
+        - "5285:5285"  # Access at http://localhost:5285
       volumes:
         - .:/app  # Shares entire host root → container /app (edit anywhere on Mac)
       working_dir: /app  # Point to your project folder

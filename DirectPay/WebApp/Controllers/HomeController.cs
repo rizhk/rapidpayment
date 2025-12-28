@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using PaymentSol.Models;
+using WebApp.Models;
 
-namespace PaymentSol.Controllers;
+namespace WebApp.Controllers;
 
 public class HomeController : Controller
 {
